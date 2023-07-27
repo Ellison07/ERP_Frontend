@@ -1,0 +1,42 @@
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.employee-details {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.employee-details h3 {
+    margin-bottom: 10px;
+}
+
+.employee-details p {
+    margin-bottom: 5px;
+}
+.scrollable-container {
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .payment-form {
+    max-width: 500px; /* Set the desired maximum width of the form */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .employee-details {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,32 @@
+<mat-toolbar color="primary" class="fixed-top">
+  <mat-toolbar-row>
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <a routerLink="dashboard" class="navbar-brand"></a>
+    <span class="fill-space"></span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="home">Home</button>
+  <button mat-menu-item routerLink="login">Login</button>
+  <button mat-menu-item routerLink="about">About us</button>
+</mat-menu>
+
+<br>
+
+<div class="container-fluid mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer fixed-bottom bg-light mt-5">
+  <div class="container">
+    <span>All Rights Reserved 2023 @Ellison</span>
+  </div>
+</footer>

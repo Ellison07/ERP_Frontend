@@ -1,0 +1,45 @@
+.about {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .about p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+    margin: 20px;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .team-member h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .team-member p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  

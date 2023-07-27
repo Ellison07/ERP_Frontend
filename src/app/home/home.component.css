@@ -1,0 +1,76 @@
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .artwork {
+    margin: 20px;
+    max-width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+    background-color: #fff;
+  }
+  
+  .artwork:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .artwork img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .artwork h2 {
+    margin: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .artwork p {
+    margin: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .artwork {
+    margin: 20px;
+  }
+  
+  .toolbar-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  

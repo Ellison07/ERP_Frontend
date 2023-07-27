@@ -1,0 +1,14 @@
+
+.nav-item a {
+    color: rgba(237, 246, 244, 0.948);
+  }
+  .navbar-nav .nav-item :hover {
+    color: black;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .fill-space {
+    flex: 1 1 auto;
+  }
+  

@@ -1,0 +1,11 @@
+.custom-button {
+    background-color: #ffcccc; /* Replace with your desired custom color */
+    color: #ffffff; /* Replace with desired text color */
+    /* Add any additional styling as needed */
+  }
+  
+  .mat-table-wrapper {
+    width: 92%;
+    font-size: 100px;
+  }
+    

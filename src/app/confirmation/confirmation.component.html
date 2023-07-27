@@ -1,0 +1,37 @@
+<div class="col-md-6 offset-md-3">
+    <h3>Payment of {{ employee.firstName + ' ' + employee.lastName }}</h3>
+    <form (ngSubmit)="onSubmit()">
+        <!-- Rating and Leaves -->
+        <div class="form-group">
+            <label for="rating">Rating</label>
+            <input type="number" [(ngModel)]="rating" name="rating" id="rating" class="form-control"
+                placeholder="Rating">
+        </div>
+        <div class="form-group">
+            <label for="leaves">Number of Leaves</label>
+            <input type="number" [(ngModel)]="leaves" name="leaves" id="leaves" class="form-control"
+                placeholder="Number of Leaves">
+        </div>
+        <!-- Start Date -->
+        <div class="form-group">
+            <label for="startDate">Start Date</label>
+            <input type="date" [(ngModel)]="startDate" name="startDate" id="startDate" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="salary">Salary</label>
+            <input type="number" [(ngModel)]="salary" name="salary" id="salary" class="form-control"
+                placeholder="Salary">
+        </div>
+        <br>
+        <button class="btn btn-success" type="submit">Calculate</button>
+    </form>
+    <br>
+    <div class="form-group">
+        <label for="adjustedSalary">Adjusted Salary</label>
+        <input type="number" [(ngModel)]="salaryBaseOnPerformance" name="adjustedSalary" id="adjustedSalary"
+            class="form-control" placeholder="Adjusted Salary">
+        <!-- Submit Button -->
+        <br>
+        <button class="btn btn-success" type="submit" (click)="submitSalary()">Submit</button>
+    </div>
+</div>

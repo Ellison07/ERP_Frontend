@@ -1,0 +1,36 @@
+<div class="scrollable-container">
+  <form (ngSubmit)="onSubmit()" class="payment-form">
+    <!-- Employee Details -->
+    <div class="employee-details">
+      <h3>Employee Details</h3>
+      <p><strong>Name:</strong> {{ employee.firstName }} {{ employee.lastName }}</p>
+      <p><strong>Email:</strong> {{ employee.emailId }}</p>
+      <p><strong>Username:</strong> {{ employee.userName }}</p>
+      <p><strong>Role:</strong> {{ employee.role }}</p>
+      <p><strong>Department:</strong> {{ employee.department }}</p>
+    </div>
+
+    <!-- Payment Details -->
+    <div class="form-group">
+      <label for="accountNo">Account Number</label>
+      <input type="text" [(ngModel)]="payment.accountNo" name="accountNo" id="accountNo" class="form-control"
+        placeholder="Account Number" required>
+    </div>
+    <div class="form-group">
+      <label for="branchName">Branch Name</label>
+      <input type="text" [(ngModel)]="payment.branchName" name="branchName" id="branchName" class="form-control"
+        placeholder="Branch Name" required>
+    </div>
+    <div class="form-group">
+      <label for="ifsc">IFSC Code</label>
+      <input type="text" [(ngModel)]="payment.ifsc" name="ifsc" id="ifsc" class="form-control" placeholder="IFSC code"
+        required>
+    </div>
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary">Confirm</button>
+    <br>
+    <br>
+    <br>
+    <br>
+  </form>
+</div>

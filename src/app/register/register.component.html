@@ -1,0 +1,47 @@
+<div class="col-md-4 offset-md-4">
+    <br>
+    <h1>Registration form</h1>
+    <br>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <mat-form-field style="width: 100%;">
+                <mat-label>First Name</mat-label>
+                <input matInput type="text" [(ngModel)]="employee.firstName" name="firstName">
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field style="width: 100%;">
+                <mat-label>Last Name</mat-label>
+                <input matInput type="text" [(ngModel)]="employee.lastName" name="lastName">
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field style="width: 100%;">
+                <mat-label>Email Id</mat-label>
+                <input matInput type="text" [(ngModel)]="employee.emailId" name="emailId">
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field style="width: 100%;">
+                <mat-label>Username</mat-label>
+                <input matInput type="text" [(ngModel)]="employee.userName" name="userName">
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field style="width: 100%;">
+                <mat-label>Password</mat-label>
+                <input matInput type="password" [(ngModel)]="employee.passWord" name="passWord">
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field style="width: 100%;">
+                <mat-label>Department</mat-label>
+                <input matInput type="text" [(ngModel)]="employee.department" name="department">
+            </mat-form-field>
+        </div>
+        <br>
+        <div class="d-flex justify-content-end">
+            <button mat-raised-button color="primary" type="submit">Submit</button>
+        </div>
+    </form>
+</div>

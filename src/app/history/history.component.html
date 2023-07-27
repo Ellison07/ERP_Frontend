@@ -1,0 +1,23 @@
+<h2>History List of {{ employee.firstName + " " + employee.lastName }}</h2>
+<div style="display: flex; justify-content: center;">
+    <table class="table table-striped" style="margin-bottom: 10%; max-width: 100%;">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Leaves</th>
+                <th>Rating</th>
+                <th>Salary</th>
+                <th>Salary Based on Performance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let history of histories">
+                <td>{{ history.dates }}</td>
+                <td>{{ history.leaves }}</td>
+                <td>{{ history.rating }}</td>
+                <td>{{ history.salary }}</td>
+                <td>{{ history.salaryBaseOnPerformance }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
